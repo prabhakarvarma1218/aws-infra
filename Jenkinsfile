@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                sh 'git clone https://github.com/maddilakrishna/aws_infra.git'
+                sh 'git clone https://github.com/prabhakarvarma1218/aws_infra.git'
             }
         }
         stage('Terraform init') {
